@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>550</x>
-      <y>450</y>
+      <x>400</x>
+      <y>290</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -24,8 +24,8 @@ MenuItemService
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
-      <y>170</y>
+      <x>690</x>
+      <y>20</y>
       <w>210</w>
       <h>140</h>
     </coordinates>
@@ -43,8 +43,8 @@ Service&lt;T&gt;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>160</x>
-      <y>250</y>
+      <x>0</x>
+      <y>510</y>
       <w>270</w>
       <h>130</h>
     </coordinates>
@@ -59,19 +59,19 @@ Service&lt;T&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>640</x>
-      <y>300</y>
-      <w>200</w>
-      <h>170</h>
+      <x>490</x>
+      <y>150</y>
+      <w>270</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=.&gt;</panel_attributes>
-    <additional_attributes>180.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>250.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>940</x>
-      <y>450</y>
+      <x>950</x>
+      <y>260</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -92,32 +92,19 @@ ReservationService
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>910</x>
-      <y>300</y>
-      <w>150</w>
-      <h>170</h>
-    </coordinates>
-    <panel_attributes>lt=.&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;130.0;150.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1380</x>
-      <y>220</y>
-      <w>270</w>
+      <x>830</x>
+      <y>150</y>
+      <w>240</w>
       <h>130</h>
     </coordinates>
-    <panel_attributes>Reservation
--
--</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;220.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1710</x>
-      <y>390</y>
+      <x>1630</x>
+      <y>240</y>
       <w>270</w>
       <h>110</h>
     </coordinates>
@@ -133,8 +120,8 @@ BLOCKED
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1380</x>
-      <y>380</y>
+      <x>1300</x>
+      <y>230</y>
       <w>270</w>
       <h>130</h>
     </coordinates>
@@ -148,8 +135,8 @@ BLOCKED
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1640</x>
-      <y>430</y>
+      <x>1560</x>
+      <y>280</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
@@ -159,8 +146,8 @@ BLOCKED
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1500</x>
-      <y>340</y>
+      <x>1420</x>
+      <y>190</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -170,23 +157,110 @@ BLOCKED
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1140</x>
-      <y>270</y>
-      <w>260</w>
-      <h>280</h>
+      <x>1150</x>
+      <y>110</y>
+      <w>170</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>10.0;260.0;240.0;10.0</additional_attributes>
+    <additional_attributes>10.0;230.0;150.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>310</y>
-      <w>150</w>
-      <h>250</h>
+      <x>120</x>
+      <y>370</y>
+      <w>300</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
-    <additional_attributes>130.0;230.0;10.0;10.0</additional_attributes>
+    <additional_attributes>280.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1300</x>
+      <y>40</y>
+      <w>270</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Reservation
+-
+- customer : Customer
+- parkingSpaceNeeded : int
+- numberOfChildSeats : int
+- numberOfPersons : int
+- reservedTable : Table
+- startReservation : LocalDateTime
+- totalTimeInMinutes : int
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>680</x>
+      <y>290</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Service&gt;&gt;
+OrderService
+--
+- items : List&lt;Order&gt;
+--
++ add(Order) : Order
++ get() : Order
++ get(int) : Order
++ update(Order) : Order
++ delete() : bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>780</x>
+      <y>150</y>
+      <w>30</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>550</y>
+      <w>270</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>Order
+-
+- items : List&lt;MenuItem&gt;
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>500</x>
+      <y>440</y>
+      <w>310</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>290.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>570</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>

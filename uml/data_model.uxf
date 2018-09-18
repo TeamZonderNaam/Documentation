@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>220</x>
+      <y>90</y>
+      <w>270</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>MenuItem
+-
+- name : String
+- price : int
+- number : int 
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>90</y>
+      <w>270</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>Table
+-
+- numberOfPersons : int
+- status : TableStatus
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>880</x>
+      <y>90</y>
+      <w>270</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>TableStatus
+&lt;&lt;enumeration&gt;&gt;
+-
+AVAILABLE
+BOOKED
+BLOCKED
+-</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>140</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

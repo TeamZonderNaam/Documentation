@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>400</x>
-      <y>290</y>
+      <x>590</x>
+      <y>460</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -24,8 +24,8 @@ MenuItemService
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>690</x>
-      <y>20</y>
+      <x>880</x>
+      <y>190</y>
       <w>210</w>
       <h>140</h>
     </coordinates>
@@ -34,7 +34,7 @@ Service&lt;T&gt;
 -
 -
 + add(T) : bool
-+ get() : T
++ get() : List&lt;T&gt;
 + get(int) : T
 + update(int) : T
 + delete() : bool</panel_attributes>
@@ -43,8 +43,8 @@ Service&lt;T&gt;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>510</y>
+      <x>190</x>
+      <y>680</y>
       <w>270</w>
       <h>130</h>
     </coordinates>
@@ -59,8 +59,8 @@ Service&lt;T&gt;
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>490</x>
-      <y>150</y>
+      <x>680</x>
+      <y>320</y>
       <w>270</w>
       <h>160</h>
     </coordinates>
@@ -70,8 +70,8 @@ Service&lt;T&gt;
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>950</x>
-      <y>260</y>
+      <x>1140</x>
+      <y>430</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -92,8 +92,8 @@ ReservationService
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>830</x>
-      <y>150</y>
+      <x>1020</x>
+      <y>320</y>
       <w>240</w>
       <h>130</h>
     </coordinates>
@@ -103,8 +103,8 @@ ReservationService
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1630</x>
-      <y>240</y>
+      <x>1820</x>
+      <y>410</y>
       <w>270</w>
       <h>110</h>
     </coordinates>
@@ -120,8 +120,8 @@ BLOCKED
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1300</x>
-      <y>230</y>
+      <x>1490</x>
+      <y>400</y>
       <w>270</w>
       <h>130</h>
     </coordinates>
@@ -135,8 +135,8 @@ BLOCKED
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1560</x>
-      <y>280</y>
+      <x>1750</x>
+      <y>450</y>
       <w>90</w>
       <h>40</h>
     </coordinates>
@@ -146,8 +146,8 @@ BLOCKED
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1420</x>
-      <y>190</y>
+      <x>1610</x>
+      <y>360</y>
       <w>30</w>
       <h>60</h>
     </coordinates>
@@ -157,8 +157,8 @@ BLOCKED
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1150</x>
-      <y>110</y>
+      <x>1340</x>
+      <y>280</y>
       <w>170</w>
       <h>250</h>
     </coordinates>
@@ -168,8 +168,8 @@ BLOCKED
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>120</x>
-      <y>370</y>
+      <x>310</x>
+      <y>540</y>
       <w>300</w>
       <h>160</h>
     </coordinates>
@@ -179,8 +179,8 @@ BLOCKED
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1300</x>
-      <y>40</y>
+      <x>1490</x>
+      <y>210</y>
       <w>270</w>
       <h>160</h>
     </coordinates>
@@ -199,8 +199,8 @@ BLOCKED
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>680</x>
-      <y>290</y>
+      <x>870</x>
+      <y>460</y>
       <w>210</w>
       <h>160</h>
     </coordinates>
@@ -219,8 +219,8 @@ OrderService
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>150</y>
+      <x>970</x>
+      <y>320</y>
       <w>30</w>
       <h>160</h>
     </coordinates>
@@ -230,8 +230,8 @@ OrderService
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>370</x>
-      <y>550</y>
+      <x>560</x>
+      <y>720</y>
       <w>270</w>
       <h>60</h>
     </coordinates>
@@ -244,8 +244,8 @@ OrderService
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>500</x>
-      <y>440</y>
+      <x>690</x>
+      <y>610</y>
       <w>310</w>
       <h>130</h>
     </coordinates>
@@ -255,8 +255,8 @@ OrderService
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>260</x>
-      <y>570</y>
+      <x>450</x>
+      <y>740</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
